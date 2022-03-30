@@ -1,6 +1,45 @@
-# pair-pro
+
+# Pair Pro
+
+I came up with the idea of Pair Pro for my final bootcam group project. Pair Pro is a platform that lets software engineers find other software engineers to pair program together. 
+
+## Demo
+
+Heroku URL: https://pairpro22.herokuapp.com/ <br>
+YouTube: https://youtu.be/Q_7bCU3Mp88
+
+## Techonologies Used
+
+MERN Stack <br>
+MongoDb <br>
+Express js <br>
+React js <br>
+Node js <br>
+
+Testing:<br>
+Cypress<br>
+React Testing Library<br>
+
+Workflow:<br>
+Github Actions (CI/CD)<br>
 
 
+## Initial setup
+
+First, clone this repository. 
+
+Then:<br>
+add .env file: <br>
+NODE_ENV = DEVELOPMENT<br>
+ATLAS_URI=mongodb+srv://katbrooks:<password>@cluster0.oasbh.mongodb.net/pairpro?retryWrites=true&w=majority<br>
+PORT=5000<br>
+JWT_SECRET = dreamteam1<br>
+in the root directory run: ```yarn install```<br>
+in the 'client' directory and run: ```yarn install```<br>
+go back to root directory and run: ```yarn run dev```<br>
+
+
+## User Stories
 ```
 MVP USER STORIES
 As a user,
